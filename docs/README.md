@@ -1,12 +1,12 @@
 # Hello VuePress
 
-test
+```java
+public class Main{
+  public void static main(String[] args){
+    System.out.println("vuePress");
+  }
+}
+```
 
-test
 
-test
-
-test2
-
-test2
 
