@@ -8,7 +8,7 @@ date: '2022-07-13'
 
 # 安装配置
 
-## 安装
+## 安装testasssa
 
 1. 安装 gcc tcl
    `yum install -y gcc tcl`
