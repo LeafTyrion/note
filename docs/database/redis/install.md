@@ -1,7 +1,7 @@
 ---
-title: Redis安装
-author: yyq
-date: '2022-07-13'
+Title: Redis安装
+Author: yyq
+Date: 2022-07-13
 ---
 
 
@@ -89,7 +89,7 @@ WantedBy=multi-user.target
   `redis-cli -h 127.0.01 -p 6379`
   `auth password`
 - 测试连通性（redis 会回复 pong）
-  `ping`
+  `ping` 
 
 # 相关知识点
 

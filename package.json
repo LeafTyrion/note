@@ -6,10 +6,13 @@
   "author": "leaf <yaqiao_ye@foxmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^2.0.0-beta.48"
+    "vuepress": "^1.9.7"
   },
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "vuepress-theme-reco": "^1.6.14"
   }
 }
