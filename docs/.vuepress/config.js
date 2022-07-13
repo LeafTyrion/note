@@ -34,7 +34,7 @@ module.exports = {
                 collapsable: false, // 不折叠
                 children: [
                     {title: "Redis", path: "/database/redis/install.md"},
-                    {title: "MySQL", path: "/handbook/Generics"}
+                    {title: "MySQL", path: "/database/redis/install.md"}
                 ],
             }
         ]
