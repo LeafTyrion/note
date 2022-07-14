@@ -21,20 +21,33 @@ module.exports = {
         ],
         sidebar: [
             {
-                title: '欢迎学习',
+                title: '首页',
                 path: '/',
-                collapsable: false, // 不折叠
-                children: [
-                    {title: "学前必读", path: "/"}
-                ]
             },
             {
                 title: "数据库",
-                path: '/database/redis/install.md',
-                collapsable: false, // 不折叠
+                collapsable: true, // 不折叠
                 children: [
-                    {title: "Redis", path: "/database/redis/install.md"},
-                    {title: "MySQL", path: "/database/redis/install.md"}
+                    {
+                        title: "Redis",
+                        collapsable: true, // 不折叠
+                        children: [
+                            {
+                                title: "安装&配置",
+                                path: "/database/redis/00_install.md"
+                            }
+                        ]
+                    },
+                    {
+                        title: "MySQL",
+                        collapsable: true, // 不折叠
+                        children: [
+                            {
+                                title: "安装&配置",
+                                path: "/database/mysql/00_install.md"
+                            }
+                        ]
+                    }
                 ],
             }
         ]
